@@ -1,0 +1,165 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "hi","hello","good morning" ,"good afternoon","good evening", "Hi", "Hello", "Good morning", "Good evening", "How are you?", "Hey there"],
+      "responses": [
+        "Good morning! How can I assist you today?",
+        "Good evening! What can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","bye", "Goodbye", "See you", "Take care", "Catch you later"],
+      "responses": [
+        "Take care! Come back anytime.",
+        "See you soon!",
+        "Goodbye! Looking forward to helping you again."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks","thank you", "Thank you", "Thanks for the help", "Much appreciated", "Thanks a lot"],
+      "responses": ["You're welcome!", "Glad to help!", "No problem at all!"]
+    },
+    {
+      "tag": "spec",
+      "patterns": ["Tell me about spec", "spec","What is spec", "About spec college", "College ranking", "Spec history", "Significance of spec"],
+      "responses": [
+        "spec (St. Peter's Engineering College) was established in 7 in Hyderabad. It is affiliated with JNTU and approved by AICTE. The college is known for its technical education and ranks among the top private engineering institutes in Telangana."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "What do I call you?", "Bot name", "Who am I talking to?"],
+      "responses": ["You can call me the Spec Enquiry Bot.", "I'm the official college enquiry assistant!"]
+    },
+    {
+      "tag": "Timings",
+      "patterns": ["What are the college timings?", "What are your working hours?", "College hours", "When does the college open?"],
+      "responses": [
+        "The college operates from 9:00 AM to 4:00 PM, Monday through Saturday. Closed on Sundays."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How do I contact you?", "College contact info", "Contact number", "College phone number", "How can I reach the college?"],
+      "responses": [
+        "You can contact the college at +91 90000 08578 or +91 90320 08578. Email us at principal@stpetershyd.com or visit our website: https://spechyd.ac.in"
+      ]
+    },
+    {
+      "tag": "courses offered",
+      "patterns": ["What courses are available?", "Available programs", "Which branches do you offer?", "Departments in college", "Courses list"],
+      "responses": [
+        "We offer various programs including IT, Civil, EEE, Mechanical, ECE, CSE, AIDS, AIML, and CSG. Below are more details for individual departments."
+      ]
+    },
+    {
+      "tag": "CSE",
+      "patterns": ["cse","about cse","cse course","Tell me about CSE", "CSE course details", "Computer Science Engineering", "CSE department info"],
+      "responses": [
+        "The CSE department offers a comprehensive program that covers programming languages, algorithms, computer networks, and machine learning. The curriculum focuses on both theoretical and practical knowledge. Students can also specialize in fields like Artificial Intelligence, Cloud Computing, and Data Science."
+      ]
+    },
+    {
+      "tag": "IT",
+      "patterns": ["it","about it","IT","Tell me about IT", "IT course details", "Information Technology", "IT department info"],
+      "responses": [
+        "The IT department is known for its emphasis on software development, networking, data management, and cybersecurity. The program offers training in the latest IT tools and technologies, preparing students for roles in the fast-evolving IT industry."
+      ]
+    },
+    {
+      "tag": "ECE",
+      "patterns": ["Tell me about ECE", "ECE course details", "Electronics and Communication Engineering", "ECE department info"],
+      "responses": [
+        "ECE at St. Peter's focuses on communication systems, VLSI design, signal processing, and microelectronics. The program combines hands-on experience with industry knowledge, equipping students for roles in telecom, semiconductor, and embedded systems industries."
+      ]
+    },
+    {
+      "tag": "AIML",
+      "patterns": ["Tell me about AIML", "AI ML course details", "Artificial Intelligence and Machine Learning", "AIML department info"],
+      "responses": [
+        "The AIML department specializes in cutting-edge technologies like deep learning, computer vision, and AI ethics. Students gain exposure to both foundational and advanced AI techniques, preparing them for roles in data science, AI research, and machine learning engineering."
+      ]
+    },
+    {
+      "tag": "Civil",
+      "patterns": ["Tell me about Civil", "Civil course details", "Civil Engineering", "Civil department info"],
+      "responses": [
+        "The Civil Engineering department covers areas such as structural engineering, geotechnics, environmental engineering, and transportation engineering. Students are trained to design and manage construction projects while considering environmental and societal impact."
+      ]
+    },
+    {
+      "tag": "Mechanical",
+      "patterns": ["Tell me about Mechanical", "Mechanical course details", "Mechanical Engineering", "Mechanical department info"],
+      "responses": [
+        "Mechanical Engineering is a versatile field covering subjects like thermodynamics, fluid mechanics, materials science, and robotics. Students learn how to design, manufacture, and maintain mechanical systems, preparing them for careers in aerospace, automotive, and energy industries."
+      ]
+    },
+    {
+      "tag": "AIDS",
+      "patterns": ["aids","Tell me about AIDS", "Artificial Intelligence and Data Science", "AIDS course details", "AIDS department info"],
+      "responses": [
+        "The AIDS department focuses on the integration of AI technologies with data science techniques. Students learn to analyze large datasets, build AI models, and deploy intelligent systems to solve real-world problems in industries such as healthcare, finance, and retail."
+      ]
+    },
+    {
+      "tag": "CSG",
+      "patterns": ["Tell me about CSG", "Cybersecurity course details", "Cybersecurity Engineering", "CSG department info"],
+      "responses": [
+        "The CSG department emphasizes network security, ethical hacking, cryptography, and incident response. Students gain skills to secure systems and networks against cyber threats and work in industries like banking, government, and IT services."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["Placement info", "Placement record", "Top recruiters", "Average salary", "Placement statistics", "How is placement?"],
+      "responses": [
+        "Our top recruiters include Cognizant, Wipro, Infosys, Capgemini, and more. The average package is around ₹4.5 LPA, and the highest package can go up to ₹12 LPA. For more details, visit: https://spechyd.ac.in/placements"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Hostel facilities", "Do you have a hostel?", "Hostel details", "Is there a hostel?", "Hostel fee", "Where is the hostel?"],
+      "responses": [
+        "We have separate hostels for boys and girls. Boys' hostel is close to the campus, while the girls' hostel is within the college. Facilities include Wi-Fi, water coolers, security, and medical rooms. Hostel fees start from ₹40,000 per year."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Do you have a library?", "Library info", "Can I borrow books?", "Is there a digital library?", "Library services"],
+      "responses": [
+        "Yes, we have a central library with a rich collection of books, journals, and e-resources. The digital library allows access to e-books and research papers online."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": ["What clubs do you have?", "Student activities", "Are there sports clubs?", "Clubs at college", "Extracurricular activities"],
+      "responses": [
+        "We have various student clubs, including cultural, technical, and sports clubs. For more details, check: https://spechyd.ac.in/student-corner/about-student-clubs/"
+      ]
+    },
+    {
+      "tag": "Fees Structure",
+      "patterns": ["What are the fees?", "Course fees", "Fees details", "College fee structure"],
+      "responses": [
+        "The fees for different courses vary. For B.Tech, it is approximately ₹90,000 per year. For M.Tech, it starts around ₹1,00,000 per year. For more details, visit: https://spechyd.ac.in/fees-structure"
+      ]
+    },
+    {
+      "tag": "Scholarships",
+      "patterns": ["scholarships","about scholarships","Do you offer scholarships?", "Scholarship info", "Financial aid", "Is there financial assistance?"],
+      "responses": [
+        "Yes, we offer scholarships based on merit and economic status. Scholarships are provided under government schemes as well as private organizations. For more information, visit: https://spechyd.ac.in/scholarships"
+      ]
+    },
+    {
+      "tag": "Campus Location",
+      "patterns": ["Where is the college?", "College location", "Address of college", "How to reach the college?"],
+      "responses": [
+        "The college is located in Hyderabad. The address is: Maisammaguda, Opp. Forest Academy, Medchal-Malkajgiri District, Telangana. It's well connected by road and public transport."
+      ]
+    }
+  ]
+}

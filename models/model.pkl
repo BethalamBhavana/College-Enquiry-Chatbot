@@ -1,0 +1,26 @@
+import os
+import pickle
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+
+# Create the 'models' directory if it doesn't exist
+if not os.path.exists('models'):
+    os.makedirs('models')
+
+# Sample training data
+training_sentences = ["Hi", "Hello", "How are you?", "Bye", "Goodbye"]
+training_labels = [0, 0, 1, 2, 2]
+
+# Vectorize the training data
+vectorizer = CountVectorizer()
+X_train = vectorizer.fit_transform(training_sentences)
+
+# Train a Naive Bayes classifier
+model = MultinomialNB()
+model.fit(X_train, training_labels)
+
+# Save the model and vectorizer to a file
+with open('models/model.pkl', 'wb') as model_file:
+    pickle.dump((model, vectorizer), model_file)
+
+print("Model saved successfully!")
